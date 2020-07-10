@@ -26,7 +26,7 @@ def recordAudio():
         print(data)
     except sr.UnknownValueError:
         speak("Roster Recognition could not understand audio")
-    except sr.RequestEsrror as e:
+    except sr.RequestError as e:
         speak("Could not request results from Roster Recognition service; {0}".format(e))
 
     return data
