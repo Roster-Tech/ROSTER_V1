@@ -1,0 +1,4 @@
+PyAudio
+pypiwin32
+SpeechRecognition
+pyttsx3
