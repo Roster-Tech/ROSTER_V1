@@ -109,9 +109,18 @@ def Removedir():
 
 def Openfile():
     speak("Please enter the file path")
-    filename=input()
+    path=input()
     try:
-        os.system("start "+filename)
+        os.system("start "+path)
+        speak("File is openning")
+    except:
+        speak("File not found")
+
+def Openfolder():
+    speak("Please enter the folder path")
+    path=input()
+    try:
+        os.system("start "+path)
         speak("File is openning")
     except:
         speak("File not found")
