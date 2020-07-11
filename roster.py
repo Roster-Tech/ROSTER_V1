@@ -26,7 +26,7 @@ def recordAudio():
         print(data)
     except sr.UnknownValueError:
         speak("Roster Recognition could not understand audio")
-    except sr.RequestEsrror as e:
+    except sr.RequestError as e:
         speak("Could not request results from Roster Recognition service; {0}".format(e))
 
     return data
@@ -109,9 +109,18 @@ def Removedir():
 
 def Openfile():
     speak("Please enter the file path")
-    filename=input()
+    path=input()
     try:
-        os.system("start "+filename)
+        os.system("start "+path)
+        speak("File is openning")
+    except:
+        speak("File not found")
+
+def Openfolder():
+    speak("Please enter the folder path")
+    path=input()
+    try:
+        os.system("start "+path)
         speak("File is openning")
     except:
         speak("File not found")
