@@ -136,6 +136,9 @@ def roster(data):
     elif "open a file" in data:
         Openfile()
         return 0
+    elif "open a folder" in data:
+        Openfolder()
+        return 0
     elif "delete a file" in data:
         Delete()
         return 0
