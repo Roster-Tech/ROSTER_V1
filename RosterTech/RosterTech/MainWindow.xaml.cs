@@ -12,11 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
-
-//using System.Runtime.InteropServices;
-//using System.Windows.Forms;
-
 using System.Diagnostics;
 using System.Windows.Forms;
 using System.Collections;
@@ -25,6 +20,8 @@ using Microsoft.VisualBasic;
 using System.Data;
 using System.Runtime.InteropServices;
 using System.IO;
+using System.Speech;
+using System.Speech.Synthesis;
 
 namespace RosterTech
 {
@@ -35,27 +32,22 @@ namespace RosterTech
     {
         [DllImport("winmm.dll", EntryPoint = "mciSendStringA", ExactSpelling = true, CharSet = CharSet.Ansi, SetLastError = true)]
         private static extern int record(string lpstrCommand, string lpstrReturnString, int uReturnLength, int hwndCallback);
+        
         public MainWindow()
         {
             InitializeComponent();
         }
 
 
-
         private void recordStartbtn_click(System.Object sender, System.EventArgs e)
         {
-            //timer1.Enabled = true;
-            //timer1.Start();
             record("open new Type waveaudio Alias recsound", "", 0, 0);
             record("record recsound", "", 0, 0);
         }
 
         //recordStopbtn_click
-
         private void recordStopbtn_click(System.Object sender, System.EventArgs e)
         {
-            //timer1.Stop();
-            //timer1.Enabled = false;
             String path = "D:\\Roster\\Project\\Audio";
             if (!Directory.Exists(path))
             {
@@ -64,8 +56,45 @@ namespace RosterTech
             record("save recsound D:\\Roster\\Project\\Audio\\mic.wav", "", 0, 0);
             record("close recsound", "", 0, 0);
         }
+        
+        public static int ExecuteCommand(string commnd, string working_dir)
+        {
+            var pp = new ProcessStartInfo("cmd.exe", "/C" + commnd)
+            {
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                WorkingDirectory = working_dir,
+            };
+            var process = Process.Start(pp);
+            process.WaitForExit();
+            process.Close();
+            return 0;
+        }
+
+        // =========================== Text To Speech ============================== //
+
+        SpeechSynthesizer speechSynthesizerObj;
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+            speechSynthesizerObj = new SpeechSynthesizer();
+            System.Windows.Forms.MessageBox.Show("rohit chouhan");
+        }
+
+        private void text_to_speech(String text)
+        {
+            //String text = "Hello Rohit sir how are you. is there anything I can help you";
+            //Disposes the SpeechSynthesizer object   
+            speechSynthesizerObj = new SpeechSynthesizer();
+            speechSynthesizerObj.Dispose();
+            if (text != "")
+            {
+                speechSynthesizerObj = new SpeechSynthesizer();
+                speechSynthesizerObj.SpeakAsync(text);
+            }
+        }
+
+
     }
 
-    
 
 }
