@@ -19,7 +19,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Border BorderBrush="Black" BorderThickness="1" Grid.Column="0">
-                        <Grid Background="#595959" >
+                        <Grid Background="#808080" >
 
 
                         </Grid>
@@ -33,7 +33,7 @@
                         </Grid.RowDefinitions>
 
                         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0">
-                            <Label x:Name="label" Content="RosterTech" Margin="80.2,35.2,114,0" Height="72" VerticalAlignment="Top" FontSize="50"/>
+                            <Label x:Name="label" Content="Roster" Margin="183.2,35.2,128,0" Height="72" VerticalAlignment="Top" FontSize="50"/>
                         </Border>
 
                         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1">
@@ -67,7 +67,7 @@
                     </Grid>
 
                     <Border BorderBrush="Black" BorderThickness="1" Grid.Column="2">
-                        <Grid Background="#595959" >
+                        <Grid Background="#808080" >
 
 
                         </Grid>
