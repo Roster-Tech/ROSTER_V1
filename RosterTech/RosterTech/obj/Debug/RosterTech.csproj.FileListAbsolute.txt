@@ -1,0 +1,15 @@
+D:\Roster\Project\RosterTech\RosterTech\bin\Debug\RosterTech.exe.config
+D:\Roster\Project\RosterTech\RosterTech\bin\Debug\RosterTech.exe
+D:\Roster\Project\RosterTech\RosterTech\bin\Debug\RosterTech.pdb
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.csprojAssemblyReference.cache
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\MainWindow.g.cs
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\App.g.cs
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech_MarkupCompile.cache
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech_MarkupCompile.lref
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\MainWindow.baml
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.g.resources
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.Properties.Resources.resources
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.csproj.GenerateResource.cache
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.csproj.CoreCompileInputs.cache
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.exe
+D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.pdb
