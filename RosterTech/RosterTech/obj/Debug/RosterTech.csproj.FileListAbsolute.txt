@@ -13,3 +13,15 @@ D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.csproj.GenerateReso
 D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.csproj.CoreCompileInputs.cache
 D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.exe
 D:\Roster\Project\RosterTech\RosterTech\obj\Debug\RosterTech.pdb
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\bin\Debug\RosterTech.exe.config
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\bin\Debug\RosterTech.pdb
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech.csprojResolveAssemblyReference.cache
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\MainWindow.g.cs
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\App.g.cs
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech_MarkupCompile.cache
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech_MarkupCompile.lref
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\MainWindow.baml
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech.g.resources
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech.Properties.Resources.resources
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech.csproj.GenerateResource.Cache
+c:\Users\ladla\Downloads\roster\ROSTER_V1\RosterTech\RosterTech\obj\Debug\RosterTech.pdb
