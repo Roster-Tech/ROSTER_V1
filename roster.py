@@ -157,6 +157,9 @@ def roster(data):
     elif "delete a folder" in data:
         Makedir()
         return 0
+    elif "move" in data:
+        Move()
+        return 0
     else:
         return 1
 
