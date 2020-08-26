@@ -20,7 +20,7 @@ python roster.py
 ## Basic functions
 
 As the script starts running, roster will ask for your name.
-Then it will ask you for the action that needs to be done.
+Then it will ask you for the action that needs to be done. </br>
 You can say :</br>
 **"how are you" - It will reply "I am fine". </br>
 "no" - will stop the script with the message "Okay! Goodbye ". </br>
