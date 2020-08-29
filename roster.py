@@ -77,7 +77,7 @@ def Check(fp):
 
 
 def Move():
-    speak("Enter the source path of file to move")
+    speak("Enter the source path of file or folder to move")
     path1=input()
     speak("Enter the destination path to move")
     path2=input()
@@ -86,6 +86,17 @@ def Move():
         speak("File moved")
     except:
         speak("cannot move the file")
+        
+def Copy():
+    speak("Enter the source path of file or folder to copy")
+    path1=input()
+    speak("Enter the destination path to copy")
+    path2=input()
+    try:
+        shutil.copy(path1,path2)
+        speak("Copied")
+    except:
+        speak("cannot copy")        
 
 
 def Makedir():
@@ -159,6 +170,9 @@ def roster(data):
         return 0
     elif "move" in data:
         Move()
+        return 0
+    elif "copy" in data:
+        Copy()
         return 0
     else:
         return 1
